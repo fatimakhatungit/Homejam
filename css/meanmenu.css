@@ -24,8 +24,8 @@ a.meanmenu-reveal {
 	z-index: 999999;
 }
 .mean-container a.meanmenu-reveal {
-	border: 1px solid #ff3d4f;
-	color: #ff3d4f;
+	border: 1px solid #fff;
+	color: #fff;
 	cursor: pointer;
 	display: block;
 	font-family: Arial,Helvetica,sans-serif;
@@ -45,11 +45,10 @@ a.meanmenu-reveal {
 
 .mean-container a.meanmenu-reveal span {
 	display: block;
-	background: #ff3d4f;
+	background: #fff;
 	height: 3px;
 	margin-top: 3px;
 }
-
 .mean-container .mean-nav {
 	float: left;
 	width: 100%;

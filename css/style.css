@@ -7,13 +7,13 @@
 }
 /* 8. sticky menu*/
 .header-transparent .menu-nav-sec.sticky_menu {
-	background: #682F26;
+	background: #757287;
 	left: 0;
 	right: 0;
 	top: 0;
 	position: fixed;
 	box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 20px;
-} 
+}  
 .header-transparent .menu-nav-sec.sticky_menu ul li a {
 	color: #fff;
 }
@@ -100,7 +100,8 @@
 	height: 150px;
 	border: 1px solid #323030;
 	border-radius: 50%;
-}
+	margin-bottom: 20px;
+} 
 .client-icon:before {
 	position: absolute;
 	left: 22.74%;
@@ -264,12 +265,13 @@
 	background: #0A0B1A;
 	border-radius: 16px;
 	border: 2px solid #E5AF56;
+	margin-bottom: 10px;
 }
 .content p {
 	color: #fff;
 	padding: 14px;
 	margin-bottom: 3px;
-} 
+}  
 .testimonials {
 	display: flex;
 	align-items: center;

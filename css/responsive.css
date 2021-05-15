@@ -13,16 +13,26 @@
 
  
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
-
+    .menu-nav-sec {
+        padding: 16px 0px;
+    }
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
- 
+ .banner-text h1 {
+	font-size: 60px;
+}
+.banner-text p {
+	font-size: 18px;
+}
+.banner-section {
+	height: 1130px;
+}
 }
  
 /* Large Mobile :480px. */
