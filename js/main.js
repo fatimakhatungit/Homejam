@@ -50,7 +50,7 @@ $('.testimonial-active').owlCarousel({
             items:2
         },
         992:{
-            items:3
+            items:1
         }
 
     }

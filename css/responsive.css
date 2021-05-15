@@ -23,16 +23,16 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
+    .menu-nav-sec {
+        padding: 30px 0px;
+    }
  .banner-text h1 {
 	font-size: 60px;
 }
 .banner-text p {
 	font-size: 18px;
 }
-.banner-section {
-	height: 1130px;
-}
+
 }
  
 /* Large Mobile :480px. */
