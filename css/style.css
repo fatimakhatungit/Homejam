@@ -1,0 +1,321 @@
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
+ body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+/* 8. sticky menu*/
+.header-transparent .menu-nav-sec.sticky_menu {
+	background: #682F26;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: fixed;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 20px;
+} 
+.header-transparent .menu-nav-sec.sticky_menu ul li a {
+	color: #fff;
+}
+/* 9. header*/
+.header-transparent {
+	position: absolute;
+	top: 0;
+	width: 100%;
+    z-index: 999; 
+}
+.main-menu {
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin: 0;
+} 
+.main-menu ul li a {
+  color: #fff;
+  display: block;
+  padding: 30px 14px;
+  text-transform: uppercase;
+  transition: .3s;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}    
+/*banner-section*/
+.banner-section {
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: rgba(0, 0, 0, 0) url("../img/banner.png") no-repeat scroll center center / cover;
+	z-index: 9;
+	padding: 100px 0px 0px 0px;
+	}  
+	.bg-overlay::after {
+		z-index: -1;
+		background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
+	}
+	.bg-overlay::after, .overlay-dark::after {
+		position: absolute;
+		content: '';
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.banner-text {
+		margin-bottom: 60px;
+	}
+	.banner-text h1 {
+		font-family: Libre Baskerville;
+		font-size: 80px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 96px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #FFFFFF;
+	}
+	.banner-text p {
+		font-family: Nunito;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 32px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #FFFFFF;
+		margin-right: 25px;
+	}
+.counter-section{
+	margin: 100px 0px;
+	position: relative;
+}
+.client-icon {
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #323030;
+	border-radius: 50%;
+}
+.client-icon:before {
+	position: absolute;
+	left: 22.74%;
+	right: 11.24%;
+	top: 10.86%;
+	bottom: 11.24%;
+	background: #DD4CAC;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.icons {
+	color: #fff;
+	margin-top: 30px;
+}
+.icons a {
+	color: #fff;
+}
+.icons a.active{
+	color: #0259EB;
+} 
+.icons h3 {
+	margin: 0;
+}
+.icons span {
+	font-size: 16px;
+	opacity: 0.5;
+	text-transform: capitalize;
+}
+.icons a:hover {color: #0259EB;}
+.blog-section { background:#0A0B1A;}
+.left-site h3 {
+  font-family: Libre Baskerville;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}  
+.left-site {
+	position: relative;
+	margin-bottom: 25px;
+} 
+.left-site h3::after {
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	height: 3px;
+	width: 50px;
+	content: "";
+	background-color: #0259EB;
+} 
+.team-image img {
+	max-width: 100%;
+	width: 100%;
+	height: 200px;
+	border-radius: 8px 8px 0px 0px;
+}   
+.right-side a {
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: #e5c558;
+	text-decoration: none;
+} 
+.team-wrapper {
+	border-radius: 5px;
+	color: #414141;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	position: relative;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+	z-index: 1;
+}
+.team-wrapper::before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1; 
+	left: 2.99%;
+	right: -2.99%;
+	top: -2.07%;
+	bottom: 2.07%;
+	background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+	border-radius: 8px;
+} 
+.team-content span {
+	color: #682F26;
+	background: #e5c558;
+	padding: 4px;
+}
+.team-content h3 {
+	font-family: Libre Baskerville;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #fff;
+	padding: 12px 0px;
+} 
+.team-footer a {
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0259EB;
+	text-decoration: none;
+}  
+.team-content {
+	background: #111229;
+	border-radius: 5px;
+}
+.team-footer i{
+	color: #0259EB;
+}
+.team-footer a:hover {
+	margin-right: 10px;
+}
+.review-section {
+	padding: 100px 0px;
+	background: #0A0B1A;
+}
+.content {
+	background: #0A0B1A;
+	box-sizing: border-box;
+	border-radius: 16px;
+	position: relative;
+	z-index: 1;
+} 
+.content::before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	left: 2.17%;
+	right: 0%;
+	top: -3%;
+	bottom: 3.12%;
+	background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+	border-radius: 16px;
+	z-index: -1;
+} 
+.testimonial-wrapper {
+	background: #0A0B1A;
+	border-radius: 16px;
+	border: 2px solid #E5AF56;
+}
+.content p {
+	color: #fff;
+	padding: 14px;
+	margin-bottom: 3px;
+} 
+.testimonials {
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 99;
+} 
+.testimonials-image img {
+	width: 48px;
+	height: 48px;
+	border-radius: 30px;
+}
+.testimonials-content h4 {
+	font-family: Quattrocento;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #fff;
+	margin-left: 20px;
+	margin-bottom: 0;
+} 
+.testimonials-content span {
+	color: #E5C558;
+	font-weight: 500;
+	font-family: Nunito;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 20px;
+}
+.testimonial-active.owl-carousel .owl-nav button {
+	position: absolute;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	top: -158px;
+	right: 0;
+	color: #fff;
+	font-size: 14px;
+	background: none;
+	opacity: 0.8;
+} 
+.testimonial-active.owl-carousel .owl-nav button.owl-prev {
+	right: 30px;
+}
