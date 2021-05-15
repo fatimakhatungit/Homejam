@@ -44,7 +44,8 @@
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-}    
+  text-decoration: none;
+}     
 /*banner-section*/
 .banner-section {
 	width: 100%;
